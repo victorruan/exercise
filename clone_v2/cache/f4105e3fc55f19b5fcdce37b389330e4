@@ -1,0 +1,430 @@
+/*
+    MS stylesheets files
+*/
+
+/* style reset  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css begin*/
+
+body {
+    text-align: center;
+    font-family: Segoe UI;
+}
+
+hr{display:block;height:0;overflow:hidden;font-size:0;border-top:1px solid #e3e3e3;margin:12px 0}
+#wrapper {
+    margin: 0 auto;
+}
+
+#header {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 960px;
+    height: 40px;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+
+#header a {
+    text-decoration: none;
+    font-size: 14px;
+    color:#000;
+}
+
+#header h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.clear {
+    clear: both;
+}
+#navbar {
+    text-align: left;
+    margin: 0 auto;
+    width: 960px;
+    height: 70px;
+    background: url("icons/nav-bg.png") repeat-x top center;
+    margin-top:20px;
+
+}
+
+#navbar ul {
+    height: 50px;
+    width: 100%;
+}
+
+#navbar ul li {
+    float: left;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    border-top: solid 3px #6fb3e0;
+}
+
+#main {
+    width: 985px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#content {
+    width:650px;
+    float: left;
+}
+
+.file-list {
+    background: url("icons/file-list.png") no-repeat left top;
+    height: 30px;
+    padding-left: 30px;
+    vertical-align: middle;
+    padding-top: 5px;
+    border-bottom:  solid 1px #eeeeee;
+}
+
+.file-table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 580px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+thead {
+    padding-bottom:5px;
+	font-weight:bold;
+}
+
+.file-table tr {
+    height: 30px;
+	font-size: 10px;
+	font-color: #666666;
+}
+
+.file-table tr:hover {
+    background-color: #dddddd;
+}
+
+.file-table tr td {
+    padding-top: 5px;
+}
+
+.file-table tr td a {
+    text-decoration: none;
+}
+
+#siderbar {
+    width: 332px;
+    min-height: 450px;
+    float: right;
+    border-left: solid 1px #eeeeee;
+}
+
+#siderbar p {
+    text-indent: 2em;
+    padding:10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#siderbar h1 {
+    background-color: #eeeeee;
+}
+
+.mirror-help {
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    background: url("icons/mirror-help.png") no-repeat left center;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.mirror-help-tips {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: url("icons/mirror-setting-tips.png") no-repeat left center;
+    border-bottom: solid 1px #eeeeee;
+    background-color: #eeeeee;
+}
+
+.quick-link {
+	font-size: 22px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: url("icons/quick-link.png") no-repeat left center;
+    border-bottom: solid 1px #eeeeee;
+}
+
+#siderbar ul {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#siderbar ul li {
+    background: url("icons/link.png") no-repeat left center;
+    padding-left: 20px;
+    height: 20px;
+}
+
+#siderbar ul li a {
+    text-decoration: none;
+}
+
+#footer {
+    width:99%;
+    margin-top: 20px;
+    border:solid 1px #eeeeee;
+    background-color: #f1f5f0;
+    text-align: left;
+}
+.about {
+    margin:0 auto;
+    float: left;
+    width:600px;
+    padding-left: 180px;
+    padding-top: 30px;
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.link-item{
+    padding-left: 8px;
+	line-height: 25px;
+}
+
+.contact {
+	font-size: 22px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background: url("icons/contact.png") no-repeat left center;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.about-us {
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.about-us-p {
+    text-indent: 1em;
+    padding-top:10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.help-title {
+    padding-left: 22px;
+    background: url("icons/dist-back.png") no-repeat left top;
+    text-transform : capitalize;
+    margin: 0 0 12px;
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 16px;
+    padding-top: 7px;
+}
+
+.help-link {
+    list-style: square url("icons/help-link-list.png");
+    padding-left: 20px;
+}
+code,pre {
+    border: solid 1px #eeeeee;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: #f5f5f5;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333333;
+	text-align: left;
+}
+
+.help p {
+    margin: 20px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+.help h3 , h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.help h2 {
+    margin: 0 0 12px;
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 7px;
+    padding-top: 17px;
+    padding-left: 30px;
+    background: url("icons/mirror-link.png") no-repeat left center;
+}
+
+.help a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.mirror-header {
+	#background: url("icons/logo.png") no-repeat right top;
+    font-family: Segoe UI;
+    text-align: center;
+	font-size: 56px;
+    font-color: #262626;
+    font-style:Light;
+	vertical-align: middle;
+}
+
+.mirror-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mirror-list {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 14px;
+	font-color: #007BD7;	
+	font-style: Regular;
+}
+
+.mirror-list table {
+    background-color: #fff;
+    border-top: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c9;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    line-height: 1.2em;
+    color: #505050;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mirror-list th {
+    font-size: 14px;
+    padding: 8px;
+    color: #505050;
+    text-align: left;
+}
+
+.mirror-list td {
+    border-top: 1px solid #c9c9c9;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px;
+    padding-left: 8px;
+    color: #505050;
+}
+
+.mirror-list a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #00abec;
+}
+
+.help-icon {
+    padding-left: 20px;
+    background: url("icons/help.png") no-repeat left center;
+}
+
+.help-icon:hover{
+    background: #86cad7 url("icons/help.png") no-repeat left center;
+}
+
+.smallfile-icon {
+    padding-left: 20px;
+    background: url("icons/file_small.png") no-repeat left center;
+}
+
+.smallfile-icon:hover{
+    background: #86cad7 url("icons/file_small.png") no-repeat left center;
+}
+
+.mirror-footer {
+    padding: 10px 0;
+    font-size: 12px;
+    background: #545C65;
+    color: #e5e5e5;
+}
+
+.mirror-footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mirror-footer-about {
+    text-align: right;
+}
+
+.mirror-footer-about ul {
+    margin: 0;
+    list-style: none;
+}
+
+.mirror-footer-about li {
+    display: inline-block;
+    margin-left: 1em;
+    white-space: nowrap;
+}

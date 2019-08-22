@@ -1,0 +1,166 @@
+<HTML>
+    <HEAD>
+		<meta charset="utf-8" />
+        <TITLE>Mirror site</TITLE>
+        <link rel='stylesheet' type="text/css" href='style.css' />
+    </HEAD>
+    <BODY>
+		<div class="mirror-footer">
+			<div class="mirror-container">
+				<div class="mirror-footer-about">
+					<ul>
+						<!--<li><a href="/monitor/log.html">Statistics</a></li> -->
+						<li><a href="mailto:osmirror@microsoft.com">Feedback</a></li>
+						<li>Powered by <a href="https://www.azure.cn">Microsoft Azure</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="mirror-header">
+            		<H1 style="vertical-align:middle"><img src="icons/kaiyuanshe.png" alt="" height="48" width="134"/>&nbsp;开源镜像站点</H1>
+		</div>	
+		<br>
+    <div id="main">
+       <div id="content" class="mirror-list">
+		<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="1" class="file-table">
+		<thead>
+		<TR>
+			<TH align="left">Repo</TH>
+			<TH align="left">Last Sync Time</TH>
+			<TH align="left">Help</TH>
+		</TR>
+		</thead>	
+	
+		<tbody>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/apache/">apache</a></TD><TD>2019-08-22 00:22:20</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/archlinux/">archlinux</a></TD><TD>2019-04-30 01:24:30</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/bosh/">bosh</a></TD><TD>2019-08-22 00:02:04</TD><TD><a href="/help/bosh-help.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/centos/">centos</a></TD><TD>2019-08-22 00:25:01</TD><TD><a href="/help/centos.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/cloudera/">cloudera</a></TD><TD>2019-08-22 01:18:50</TD><TD><a href="/help/cloudera-help.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/docker-engine/">docker-engine</a></TD><TD>2019-08-22 00:48:26</TD><TD><a href="/help/docker-engine.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/docker-ce/">docker-ce</a></TD><TD>2019-03-21 01:23:30</TD><TD><a href="/help/docker-engine.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/help/docker-registry-proxy-cache.html">docker registry proxy cache</a></TD><TD>2019-08-22 01:00:02</TD><TD><a href="/help/docker-registry-proxy-cache.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/help/gcr-proxy-cache.html">GCR proxy cache</a></TD><TD>2019-08-22 01:00:02</TD><TD><a href="/help/gcr-proxy-cache.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/docker-toolbox/">docker-toolbox</a></TD><TD>2019-08-22 00:42:52</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/elastic/">elastic</a></TD><TD>2019-08-22 00:45:12</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/epel/">epel</a></TD><TD>2019-08-22 00:51:50</TD><TD><a href="/help/epel.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/go/">go</a></TD><TD>2019-08-22 01:08:29</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/haproxy/">haproxy</a></TD><TD>2019-08-22 01:39:04</TD><TD><a href="/help/haproxy-help.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/iojs/">iojs</a></TD><TD>2019-08-22 01:29:06</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/jenkins/">jenkins</a></TD><TD>2019-08-22 01:18:09</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/kubernetes/">kubernetes</a></TD><TD>2019-08-22 01:22:04</TD><TD><a href="/help/kubernetes.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/mongodb/">mongodb</a></TD><TD>2019-08-22 01:04:22</TD><TD><a href="/help/mongodb.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/mysql/">mysql</a></TD><TD>2019-08-22 01:28:39</TD><TD><a href="/help/mysql.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/nginx/">nginx</a></TD><TD>2019-08-22 02:33:44</TD><TD><a href="/help/nginx.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/nodejs/">nodejs</a></TD><TD>2019-08-21 04:27:36</TD><TD><a href="/help/nodejs.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/nodesource/">nodesource</a></TD><TD>2019-08-22 00:45:07</TD><TD><a href="/help/nodesource.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/help/npm.html">npm</a></TD><TD>2019-08-22 06:20:01</TD><TD><a href="/help/npm.html" class="help-icon"></a></TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/jenkins/">jenkins</a></TD><TD>2019-08-22 01:18:09</TD><TD>&nbsp;</TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="http://olcentchan.chinacloudapp.cn/openlogic">openlogic</a></TD><TD>2019-08-22 01:00:02</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/openssh">openssh</a></TD><TD>2019-08-22 01:02:03</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/postgresql/">postgresql</a></TD><TD>2019-08-22 01:07:06</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="/putty/">putty</a></TD><TD>2019-08-22 01:03:04</TD><TD><a href="/putty" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/rabbitmq-server/">rabbitmq-server</a></TD><TD>2019-08-22 00:34:28</TD><TD><a href="/help/rabbitmq-server-help.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/redis/">redis</a></TD><TD>2019-08-22 00:04:32</TD><TD>&nbsp;</TD>
+                </TR>	
+                <TR>
+			<TD><a class="smallfile-icon" href="/ruby/">ruby</a></TD><TD>2019-08-22 00:53:20</TD><TD>&nbsp;</TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/rubygems/">rubygems</a></TD><TD>2019-08-22 00:36:51</TD><TD><a href="/help/rubygems.html" class="help-icon"></a></TD>
+                </TR>	
+                <TR>
+                        <TD><a class="smallfile-icon" href="/square/">square</a></TD><TD>2019-08-22 01:20:03</TD><TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                        <TD><a class="smallfile-icon" href="http://azure.archive.ubuntu.com/ubuntu">ubuntu</a></TD><TD>2019-08-22 01:00:02</TD><TD><a href="/help/ubuntu.html" class="help-icon"></a></TD>
+                </TR>
+		<TR>
+			<TD><a class="smallfile-icon" href="/zabbix/">zabbix</a></TD><TD>2019-08-22 02:55:01</TD><TD><a href="/help/zabbix.html" class="help-icon"></a></TD>
+		</TR>
+		</tbody>
+		</TABLE>
+		</div>
+
+        <div id="siderbar">
+        <h1 class="mirror-help-tips">Mirror Settings 镜像设置</h1>
+        <h1 class="link-item">
+        Data sync will happen once a day at 0:00-5:00 CST. （同步频率为每天一次，镜像同步时间为每天凌晨0:00-5:00。) <br>
+        </h1>
+        <br>
+        <!-- hide this
+        <h3 class="mirror-help-tips"><a href="/monitor/location.html">镜像服务器位置(server location)</a></h3>
+        -->
+        <h2 class="quick-link">Links</h2>
+        <a class="link-item" href="http://www.kaiyuanshe.cn/">开源社</a><br><br>
+        <a class="link-item" href="http://azure.cn">Microsoft Azure</a><br><br>
+        <!--<a class="link-item" href="https://www.azure.cn/home/features/virtual-machines/">VM documentation</a>-->
+        <br><br>
+        
+        <h2 class="contact">contact us</h2>
+        <a class="link-item" href="mailto:osmirror@microsoft.com">osmirror@microsoft.com</a>
+                
+        </div>
+    </div>
+	
+	</BODY>
+</HTML>	
